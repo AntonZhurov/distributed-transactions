@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "preserveWatchOutput": true
+  },
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts", "example"]
+}

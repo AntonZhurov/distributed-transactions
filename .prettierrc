@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": ["**/.*rc", "**/*.json"],
+      "options": { "parser": "json" }
+    }
+  ]
+}

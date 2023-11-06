@@ -1,0 +1,28 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "strict": ["error", "global"],
+    "eqeqeq": "error",
+    "curly": ["error", "multi-line", "consistent"],
+    "no-shadow-restricted-names": "error",
+    "consistent-return": ["error", { "treatUndefinedAsUnspecified": true }],
+    "no-use-before-define": ["error", { "functions": false }],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "no-dupe-class-members": "off",
+    "@typescript-eslint/no-unused-vars": "warn"
+  }
+}
