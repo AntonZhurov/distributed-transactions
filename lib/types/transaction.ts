@@ -257,7 +257,7 @@ export interface DistributedTransactionOptions<
   >;
 }
 
-export interface CreateDistributedTransactionData<
+export interface DistributedTransactionModelFields<
   TSteps extends string = string,
   TContext extends Record<any, any> = Record<any, any>,
   TSuccessResponseByStep extends Partial<{

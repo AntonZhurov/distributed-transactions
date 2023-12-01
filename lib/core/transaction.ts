@@ -1,5 +1,5 @@
 import {
-  CreateDistributedTransactionData,
+  DistributedTransactionModelFields,
   DISTRIBUTED_TRANSACTION_STATUS,
   DISTRIBUTED_TRANSACTION_STEP_ROLLBACK_STATUS,
   DISTRIBUTED_TRANSACTION_STEP_STATUS,
@@ -55,7 +55,7 @@ export class DistributedTransaction<
   statusDescription?: string;
 
   constructor(
-    data: CreateDistributedTransactionData<
+    data: DistributedTransactionModelFields<
       TSteps,
       TContext,
       TSuccessResponseByStep,

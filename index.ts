@@ -25,5 +25,5 @@ export {
   DistributedTransactionRunnerLogger,
   CreateDistributedTransactionRunnerOptions,
   DISTRIBUTED_TRANSACTION_STATUS,
-  CreateDistributedTransactionData,
+  DistributedTransactionModelFields,
 } from './lib/types';
